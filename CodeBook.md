@@ -263,7 +263,7 @@ colnames(neededdata) <- gsub("Anglet", "AngleTime", colnames(neededdata))
 colnames(neededdata) <- gsub("BodyBody", "Body", colnames(neededdata))
 ```
 
-**Output of needed data frame with some variables**
+**Short output of needed data frame with some variables**
 
     ##   subject activity TimeBodyAccelerometerMeanX TimeBodyAccelerometerMeanY TimeBodyAccelerometerMeanZ
     ## 1       1 STANDING                  0.2885845                -0.02029417                 -0.1329051
@@ -299,7 +299,7 @@ newtidydata <- neededdata %>%
 detach("package:dplyr", unload = TRUE)
 ```
 
-**Outpu of new tidy data frame with some variables**
+**Short output of new tidy data frame with some variables**
 
     ## # A tibble: 10 x 5
     ## # Groups:   subject [2]
